@@ -65,7 +65,7 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
-        bill = "Basic Price Of The Pizza: "+ Integer.toString(pizza)+"\n";
+        bill = "Base Price Of The Pizza: "+ Integer.toString(pizza)+"\n";
         if(extraCheese){
             bill += "Extra Cheese Added: "+Integer.toString(cheese) +"\n";
         }
