@@ -50,7 +50,7 @@ public class Pizza {
                 Topping += 70;
             }else{
                 this.price += 120;
-                Topping += 70;
+                Topping += 120;
             }
             extraToppings = true;
         }
