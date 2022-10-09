@@ -75,7 +75,7 @@ public class Pizza {
         if(paper > 0){
             bill +="Paperbag Added: "+Integer.toString(paper)+"\n";
         }
-        bill += "Total Price: "+Integer.toString(price);
+        bill += "Total Price: "+Integer.toString(price)+"\n";
 
         return this.bill;
     }
